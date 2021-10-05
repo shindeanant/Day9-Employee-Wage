@@ -24,6 +24,7 @@ public class EmployeeWage {
 		System.out.println("Welcome to the employee wage computaion problem");
 		EmployeeWage object = new EmployeeWage();
 		object.employeeAttdence();
+		object.dailyWage();
 
 	}
 
