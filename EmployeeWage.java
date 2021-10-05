@@ -101,7 +101,7 @@ public class EmployeeWage {
 		object.employeePartTimeWage();
 		object.dailyWage();
 		object.monthlyWage();
-		object.calculateWagesTillGivenCond();
+		object.calculateWagesTillGivenCond();//
 
 	}
 
