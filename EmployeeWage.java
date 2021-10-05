@@ -1,6 +1,9 @@
 package com.employeewageproblem;
 
 public class EmployeeWage {
+	int wagePerHours = 20;
+	int dailyHours = 8;
+	int dailyWage;
 
 	public void employeeAttdence() {
 		int empCheck = (int) (Math.random() * 10) % 2;
@@ -10,6 +13,11 @@ public class EmployeeWage {
 		} else {
 			System.out.println("Employee is Absent");
 		}
+	}
+
+	public void dailyWage() {
+		dailyWage = wagePerHours * dailyHours;
+		System.out.println("Employee Daily wage = " + dailyWage);
 	}
 
 	public static void main(String[] args) {
