@@ -48,12 +48,6 @@ public class EmployeeWage {
 		}
 	}
 
-	public void employeePartTimeWage() {
-
-		partTimeWage = wagePerHours * partTimeHours;
-		System.out.println("Employee Part Time Wage :" + partTimeWage);
-	}
-
 	public void monthlyWage() {
 
 		monthlyWage = dailyWage * daysPerMonth;
